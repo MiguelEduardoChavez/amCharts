@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>amCharts</title>
+  </head>
+  <body>
+  	<h1 class="text-center">Prueba de gráficas</h1>
+  	<div class="row">
+  		 <div class="col-md-6">
+				<div class="portlet box green-meadow">
+					<div class="portlet-title">
+						<div class="caption">
+							<i class="fa fa-bar-chart"></i>Grafica de Pastel
+						</div>
+					</div>
+					<div class="portlet-body">
+				    	<div id="chartPastel" class="chart"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="portlet box green-meadow">
+					<div class="portlet-title">
+						<div class="caption">
+							<i class="fa fa-bar-chart"></i>Grafica de Barras
+						</div>
+					</div>
+					<div class="portlet-body">
+            			<div id="chartBarras" class="chart"></div>
+					</div>
+				</div>
+			</div>
+             <div class="col-md-12">
+				<div class="portlet box green-meadow">
+					<div class="portlet-title">
+						<div class="caption">
+							<i class="fa fa-bar-chart"></i>Grafica de Barras v2
+						</div>
+					</div>
+					<div class="portlet-body">
+            			<div id="chartBarrasv2" class="chart"></div>
+					</div>
+				</div>
+			</div>
+  		
+  	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/core.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/animated.js"></script>
+    <script src="js/graficas.js"></script>
+
+    <script>
+      jQuery(document).ready(function() {
+          Graficas.init();
+      });
+    
+   </script>
+  </body>
+</html>
